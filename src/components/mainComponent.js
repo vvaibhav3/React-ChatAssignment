@@ -36,6 +36,7 @@ function scrollDown(){
     window.location.hash="#today";
 }
 
+// Main component of app which contains overall component
 const Main = () => {
 
 
