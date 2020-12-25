@@ -65,7 +65,7 @@ const Main = () => {
     window.onload=window.scroll(0,1000);
 
     return (
-        <div className="container position-relative p-0 my-0" style={{backgroundColor:"white", border:"2px solid #333",animationName:"fade",animationDelay:"1",animationDuration:"3s"}}>
+        <div className="container position-relative p-0 my-0" style={{backgroundImage: "linear-gradient(to bottom,#3e1f47,#144552)", border:"2px solid #333",animationName:"fade",animationDelay:"1",animationDuration:"3s"}}>
             <Header/>
                 <div className="container">
                 {/* Predefined messages */}
@@ -77,7 +77,7 @@ const Main = () => {
                 
                 {/* shows today flag */}
                 <div className={"showDay"} align="center" >
-                    <div style={{width:"60px",height:"30px",backgroundColor:"whitesmoke"}} align="center">today</div>
+                    <div style={{width:"60px",height:"30px",backgroundColor:"whitesmoke",borderRadius:"5px"}} align="center">today</div>
                 </div>
 
                 {/* animated messsages */}
